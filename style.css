@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #F2F4F3;
+  color: #2C3333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #2F8F9D, #3BACB6);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* NAVBAR */
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: white;
+  color: #2F8F9D;
+  padding: 8px 14px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #2F8F9D;
+  color: white;
+}
+
+/* SECTION */
+section {
+  background-color: #FFFFFF;
+  margin: 30px auto;
+  padding: 25px;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* JUDUL SECTION */
+section h2 {
+  margin-bottom: 15px;
+  color: #2F8F9D;
+  border-bottom: 2px solid #E0E0E0;
+  padding-bottom: 5px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  border: 1px solid #DDD;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #EAF6F6;
+  color: #2C3333;
+}
+
+/* LIST */
+ul {
+  padding-left: 20px;
+}
+
+/* MEDIA */
+video, audio, img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* BUTTON */
+button {
+  background-color: #3BACB6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2F8F9D;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+  color: #777;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
